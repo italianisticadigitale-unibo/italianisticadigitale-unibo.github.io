@@ -121,6 +121,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Img cards */
 .no-user {background-image: url("img/user.png"); background-size: cover; background-repeat: no-repeat;}
+#bozzi {background-image: url("img/bozzi.png"); background-size: cover; background-repeat: no-repeat;}
 #quondam {background-image: url("img/quondam.png"); background-size: cover; background-repeat: no-repeat;}
 #marazzini {background-image: url("img/marazzini.png"); background-size: cover; background-repeat: no-repeat;}
 #squillacioti {background-image: url("img/squillacioti.png"); background-size: cover; background-repeat: no-repeat;}
@@ -150,6 +151,9 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 #russo-emilio {background-image: url("img/russo-emilio.png"); background-size: cover; background-repeat: no-repeat;}
 #leonardi {background-image: url("img/leonardi.png"); background-size: cover; background-repeat: no-repeat;}
 #del-vento {background-image: url("img/del-vento.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#vecchi {background-image: url("img/vecchi.png"); background-size: cover; background-repeat: no-repeat;}
+#tomasi-franco {background-image: url("img/tomasi-franco.png"); background-size: cover; background-repeat: no-repeat;}
+#russo-ersilia {background-image: url("img/russo-ersilia.png"); background-size: cover; background-repeat: no-repeat;}
 
 /* Icone */
 .fa-copy:hover {color: #FEFEFE; font-size: 20px;}
