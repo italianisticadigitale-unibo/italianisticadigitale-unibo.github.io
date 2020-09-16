@@ -54,6 +54,10 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .no-underline:hover {cursor: pointer; text-decoration: none;}
 @media only screen and (max-width: 320px) {.font-mail{font-size: 11px;}}
 @media only screen and (min-width: 321px) and (max-width: 767px) {.font-mail{font-size: 14px;}}
+
+/* Links */
+.link-white:hover {color: #FEFEFE; text-decoration: none !important;}
+
 /* Background colors */
 .background-black {background-color: #343434;} 
 .background-dimgray {background-color: #3A515F;} /*#78A892*/
