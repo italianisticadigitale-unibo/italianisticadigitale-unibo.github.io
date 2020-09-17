@@ -155,6 +155,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 #vecchi {background-image: url("img/vecchi.png"); background-size: cover; background-repeat: no-repeat;}
 #tomasi-franco {background-image: url("img/tomasi-franco.png"); background-size: cover; background-repeat: no-repeat;}
 #russo-ersilia {background-image: url("img/russo-ersilia.png"); background-size: cover; background-repeat: no-repeat;}
+#di-silvestro {background-image: url("img/di-silvestro.png"); background-size: cover; background-repeat: no-repeat;}
+#papio {background-image: url("img/papio.png"); background-size: cover; background-repeat: no-repeat;}
 
 /* Icone */
 .fa-copy:hover {color: #FEFEFE; font-size: 20px;}
