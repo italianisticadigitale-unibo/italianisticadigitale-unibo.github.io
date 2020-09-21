@@ -122,41 +122,42 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Img cards */
 .no-user {background-image: url("img/user.png"); background-size: cover; background-repeat: no-repeat;}
-#bozzi {background-image: url("img/bozzi.png"); background-size: cover; background-repeat: no-repeat;}
-#quondam {background-image: url("img/quondam.png"); background-size: cover; background-repeat: no-repeat;}
-#marazzini {background-image: url("img/marazzini.png"); background-size: cover; background-repeat: no-repeat;}
-#squillacioti {background-image: url("img/squillacioti.png"); background-size: cover; background-repeat: no-repeat;}
-#manetti {background-image: url("img/manetti.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
 #anselmi {background-image: url("img/anselmi.png"); background-size: cover; background-repeat: no-repeat;}
-#tomasi {background-image: url("img/tomasi.png"); background-position-y: 0px; background-size: cover; background-repeat: no-repeat;}
 #berte {background-image: url("img/berte.png"); background-size: cover; background-repeat: no-repeat;}
-#riva {background-image: url("img/riva.png"); background-size: cover; background-repeat: no-repeat;}
-#raboni {background-image: url("img/raboni.png"); background-size: cover; background-repeat: no-repeat;}
-#sichera {background-image: url("img/sichera.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
-#nobili {background-image: url("img/nobili.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
-#daquino {background-image: url("img/daquino.png"); background-size: cover; background-repeat: no-repeat;}
-#de-vivo {background-image: url("img/de-vivo.png"); background-size: cover; background-repeat: no-repeat;}
-#moreno {background-image: url("img/moreno.png"); background-size: cover; background-repeat: no-repeat;}
-#italia {background-image: url("img/italia.png"); background-size: cover; background-repeat: no-repeat;}
-#priore {background-image: url("img/priore.png"); background-size: cover; background-repeat: no-repeat;}
-#nava {background-image: url("img/nava.png"); background-size: cover; background-repeat: no-repeat;}
-#siciliano {background-image: url("img/siciliano.png"); background-size: cover; background-repeat: no-repeat;}
-#serra {background-image: url("img/serra.png"); background-size: cover; background-repeat: no-repeat;}
-#chines {background-image: url("img/chines.png"); background-size: cover; background-repeat: no-repeat;}
+#bozzi {background-image: url("img/bozzi.png"); background-size: cover; background-repeat: no-repeat;}
 #cadioli {background-image: url("img/cadioli.png"); background-size: cover; background-repeat: no-repeat;}
+#chines {background-image: url("img/chines.png"); background-size: cover; background-repeat: no-repeat;}
+#daquino {background-image: url("img/daquino.png"); background-size: cover; background-repeat: no-repeat;}
+#de-pasquale {background-image: url("img/de-pasquale.png"); background-size: cover; background-repeat: no-repeat;}
+#de-vivo {background-image: url("img/de-vivo.png"); background-size: cover; background-repeat: no-repeat;}
+#del-vento {background-image: url("img/del-vento.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#di-silvestro {background-image: url("img/di-silvestro.png"); background-size: cover; background-repeat: no-repeat;}
+#italia {background-image: url("img/italia.png"); background-size: cover; background-repeat: no-repeat;}
+#leonardi {background-image: url("img/leonardi.png"); background-size: cover; background-repeat: no-repeat;}
+#manetti {background-image: url("img/manetti.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#marazzini {background-image: url("img/marazzini.png"); background-size: cover; background-repeat: no-repeat;}
 #meghini {background-image: url("img/meghini.png"); background-size: cover; background-repeat: no-repeat;}
 #meneghetti {background-image: url("img/meneghetti.png"); background-size: cover; background-repeat: no-repeat;}
-#ruozzi {background-image: url("img/ruozzi.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
-#zaccarello {background-image: url("img/zaccarello.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
-#de-pasquale {background-image: url("img/de-pasquale.png"); background-size: cover; background-repeat: no-repeat;}
-#russo-emilio {background-image: url("img/russo-emilio.png"); background-size: cover; background-repeat: no-repeat;}
-#leonardi {background-image: url("img/leonardi.png"); background-size: cover; background-repeat: no-repeat;}
-#del-vento {background-image: url("img/del-vento.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
-#vecchi {background-image: url("img/vecchi.png"); background-size: cover; background-repeat: no-repeat;}
-#tomasi-franco {background-image: url("img/tomasi-franco.png"); background-size: cover; background-repeat: no-repeat;}
-#russo-ersilia {background-image: url("img/russo-ersilia.png"); background-size: cover; background-repeat: no-repeat;}
-#di-silvestro {background-image: url("img/di-silvestro.png"); background-size: cover; background-repeat: no-repeat;}
+#moreno {background-image: url("img/moreno.png"); background-size: cover; background-repeat: no-repeat;}
+#nava {background-image: url("img/nava.png"); background-size: cover; background-repeat: no-repeat;}
+#nobili {background-image: url("img/nobili.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
 #papio {background-image: url("img/papio.png"); background-size: cover; background-repeat: no-repeat;}
+#petoletti {background-image: url("img/petoletti.png"); background-size: cover; background-repeat: no-repeat;}
+#priore {background-image: url("img/priore.png"); background-size: cover; background-repeat: no-repeat;}
+#quondam {background-image: url("img/quondam.png"); background-size: cover; background-repeat: no-repeat;}
+#raboni {background-image: url("img/raboni.png"); background-size: cover; background-repeat: no-repeat;}
+#riva {background-image: url("img/riva.png"); background-size: cover; background-repeat: no-repeat;}
+#ruozzi {background-image: url("img/ruozzi.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#russo-emilio {background-image: url("img/russo-emilio.png"); background-size: cover; background-repeat: no-repeat;}
+#russo-ersilia {background-image: url("img/russo-ersilia.png"); background-size: cover; background-repeat: no-repeat;}
+#serra {background-image: url("img/serra.png"); background-size: cover; background-repeat: no-repeat;}
+#sichera {background-image: url("img/sichera.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#siciliano {background-image: url("img/siciliano.png"); background-size: cover; background-repeat: no-repeat;}
+#squillacioti {background-image: url("img/squillacioti.png"); background-size: cover; background-repeat: no-repeat;}
+#tomasi {background-image: url("img/tomasi.png"); background-position-y: 0px; background-size: cover; background-repeat: no-repeat;}
+#tomasi-franco {background-image: url("img/tomasi-franco.png"); background-size: cover; background-repeat: no-repeat;}
+#vecchi {background-image: url("img/vecchi.png"); background-size: cover; background-repeat: no-repeat;}
+#zaccarello {background-image: url("img/zaccarello.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
 
 /* Icone */
 .fa-copy:hover {color: #FEFEFE; font-size: 20px;}
