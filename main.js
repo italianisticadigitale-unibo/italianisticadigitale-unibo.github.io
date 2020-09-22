@@ -1,10 +1,11 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function() {
     navScroll();
     activeMove();
     navItems();
     scopriDiPiu();
     seeDayProgram();
     //privacy();
+    modals();
 });
 
 /* Hide del logo mentre si scrolla la pagina e show quando si torna all'inizio della pagina */
@@ -147,4 +148,15 @@ function copyURL() {
 /* Avviso che l'URL è stato copiato */
 function outFunc() {
     document.getElementById("copiedAlert").style.display = "none";
+}
+
+/* Modali per gli abstract */
+function modals() {
+    $(".abstract").click(function() {
+        var target = ($(this).attr("target"));
+        var file;
+        file = ("abstract/" + target + ".html");
+        $("#modal-div").load(file);
+        modal.show();
+    })
 }
