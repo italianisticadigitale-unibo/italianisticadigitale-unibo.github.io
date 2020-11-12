@@ -93,7 +93,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .active > a {background-color: transparent !important; color: #3A515F !important; font-weight: 600; text-shadow: 10px 10px 31px -2px rgba(179,177,179,0.77);}
 .navbar-brand {background-color: #E8E7F0; padding-top: 0 !important;}
 .navbar-brand > img {background-color: #E8E7F0; padding: 2vh;}
-@media only screen and (max-width: 1024px) {.navbar-brand > img {display: none !important;}}
+@media only screen and (max-width: 1300px) {.navbar-brand > img {display: none !important;}}
 .navbar-default {background-color: #E8E7F0 !important; background-image: none !important; border: 0 !important; box-shadow: none !important; -webkit-box-shadow: none !important;}
 .mobile-home {display: none;}
 @media only screen and (max-width: 1024px) {.mobile-home {display: block !important;}}
