@@ -1,0 +1,187 @@
+/* HTML */
+html { -webkit-font-smoothing: antialiased;}
+
+/* Body */
+body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-smoothing: antialiased;}
+
+/* Display */
+.no-display {display: none;}
+.no-visibility {visibility: hidden;}
+
+/* Padding */
+.no-padding-right {padding-right: 0 !important;}
+.no-padding-top {padding-top: 0 !important;}
+.no-padding-bottom {padding-bottom: 0 !important;}
+.padding-main-section {padding: 4vh 4vh 4vh 4vh;}
+.padding-section {padding: 13vh 0 13vh 0;}
+.padding-section-enlarged {padding: 25vh 0 25vh 0;}
+@media only screen and (max-width: 767px) {.padding-section-enlarged {padding: 12vh 0 12vh 0;}}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {.padding-section-enlarged {padding: 20vh 0 20vh 0;}}
+
+/* Margin */
+.margin-bottom-button {margin-bottom: 4vh !important;}
+.margin-bottom-button-half {margin-bottom: 2vh !important;}
+.margin-bottom-section {margin-bottom: 7vh;}
+.margin-top-section {margin-top: 7vh;}
+.margin-top-section-half {margin-top: 3vh;}
+.margin-top-min {margin-top: 2vh;}
+.no-margin-bottom {margin-bottom: 0 !important;}
+.no-margin-top {margin-top: 0 !important;}
+
+/* Elements position */
+.center {display: block; margin: 0 auto !important;}
+.center-text {text-align: center;}
+.justify {text-align: justify;}
+.left {float: left;}
+@media only screen and (max-width: 1024px) {.left {display: block; float: none; margin: 0 auto !important; margin-bottom: 4vh !important; margin-top: 10px !important;}}
+.right {float: right;}
+@media only screen and (max-width: 1024px) {.right {display: block; float: none; margin: 0 auto !important;}}
+
+/* Section dimensions */
+.hero-full-screen {height: 100vh;}
+.section-copyright {margin: 10px 0 10px 0 !important;}
+.section-pre-footer {padding: 7vh 0 7vh 0;}
+
+/* Colors */
+.color-black {color: #343434;}
+.color-dimgray {color: #3A515F;}
+.color-red {color: #55111D;}
+.color-white {color: #FEFEFE;}
+
+/* Font styles */
+.bold {font-weight: 600;}
+.italic {font-style: italic;}
+.underline {cursor: pointer; text-decoration: underline;}
+.no-underline {cursor: pointer; text-decoration: none;}
+.no-underline:hover {cursor: pointer; text-decoration: none;}
+@media only screen and (max-width: 320px) {.font-mail{font-size: 11px;}}
+@media only screen and (min-width: 321px) and (max-width: 767px) {.font-mail{font-size: 14px;}}
+
+/* Background colors */
+.background-black {background-color: #343434;} 
+.background-dimgray {background-color: #3A515F !important;}
+.background-gray {background-color: #EFF3F5;} 
+.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}
+@media only screen and (max-width: 1024px) {.background-hero {background-image: none; background-color: #E8E7F0;}} 
+.background-red {background-color: #55111D;}
+.background-white {background-color: #FEFEFE;} 
+
+/* Titles */
+.copyright-title {font: 15px Raleway, sans-serif; letter-spacing: 0.6px; text-align: center;}
+.main-title {font: 65px Raleway, sans-serif; text-align: center; text-transform: uppercase; line-height: 65px; color: #343434;}
+@media only screen and (max-width: 767px) {.main-title {font-size: 35px; line-height: 40px;}}
+@media only screen and (max-height: 415px) {.main-title {font-size: 30px;}}
+.main-subtitle-enlarged {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center; text-transform: uppercase; line-height: 65px; color: #343434;}
+@media only screen and (max-width: 767px) {.main-subtitle-enlarged {font-size: 21px; line-height: 30px;}}
+@media only screen and (max-height: 415px) {.main-subtitle-enlarged {font-size: 18px;}}
+.main-subtitle {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center; color: #343434;}
+.pre-footer-title {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
+.pre-footer-subtitle {font: 17px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
+.secondary-title {font: 35px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
+@media only screen and (max-width: 767px) {.secondary-title {font-size: 25px;}}
+@media only screen and (max-height: 415px) {.secondary-title {font-size: 15px;}}
+.thumbnail-title {font: 20px Raleway, sans-serif; font-weight: 600; letter-spacing: 2px;}
+
+/* Paragraphs */ 
+.pre-footer-p {font: 17px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
+.p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
+
+/* Navbar */
+.nav a {color: #343434; cursor: pointer; font: 14px Raleway, sans-serif; letter-spacing: 2px; text-transform: uppercase;}
+@media only screen and (max-width: 1024px) {.nav a {font-size: 12px;}}
+.nav a:hover {color: #3A515F;}
+.active > a {background-color: transparent !important; color: #3A515F !important; font-weight: 600; text-shadow: 10px 10px 31px -2px rgba(179,177,179,0.77);}
+.navbar-brand {background-color: #E8E7F0; padding-top: 0 !important;}
+.navbar-brand > img {background-color: #E8E7F0; padding: 2vh;}
+@media only screen and (max-width: 1300px) {.navbar-brand > img {display: none !important;}}
+.navbar-default {background-color: #E8E7F0 !important; background-image: none !important; border: 0 !important; box-shadow: none !important; -webkit-box-shadow: none !important;}
+.mobile-home {display: none;}
+@media only screen and (max-width: 1024px) {.mobile-home {display: block !important;}}
+@media only screen and (max-height: 415px) {.mobile-home-img {display: none;}}
+
+/* Hr */
+.hr-card {border: 3px solid; width: 75%;}
+.hr-circle {border: 3px solid; width: 60%;}
+.hr-main {border: 4px solid; width: 60%;}
+.hr-secondary {border: 4px solid; width: 40%;}
+
+/* Button */
+.button-round {background-color: #55111D; border: 1px solid #55111D; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round:hover {background-color: transparent; border: 1px solid #55111D; border-radius: 37px; color: #55111D; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-close {background-color: #3A515F; border: 1px solid #3A515F; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-close:hover {background-color: transparent; border: 1px solid #3A515F; border-radius: 37px; color: #3A515F; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty {background-color: transparent; border: 1px solid #55111D; border-radius: 37px; color: #55111D; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-dimgray {background-color: #3A515F; border: 1px solid #3A515F; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty-dimgray {background-color: transparent; border: 1px solid #3A515F; border-radius: 37px; color: #3A515F; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #3A515F; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white:hover {background-color: #3A515F; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+
+/* Cards */
+.circle {background-color: #bbb; border-radius: 50%; display: block; height: 15vh; margin: 20px auto; width: 15vh;}
+@media only screen and (max-width: 1024px) {.circle {background-color: #bbb; border-radius: 50%; display: block; height: 10vh; margin: 20px auto; width: 10vh;}}
+.circle:hover {box-shadow: 0px 2px 30px -1px rgba(52,52,52,0.4);}
+.thumbnail {background-color: #FEFEFE !important; border: 0 !important; border-radius: 0 !important; box-shadow: 10px 10px 31px -2px rgba(179,177,179,0.1) !important; height: 25vh; margin-bottom: 0 !important; padding: 2vh !important;}
+.thumbnail .caption {padding: 3vh !important;}
+@media only screen and (max-width: 1024px) {.thumbnail-title {margin-top: 20px !important;}}
+
+/* Img cards */
+.no-user {background-image: url("img/user.png"); background-size: cover; background-repeat: no-repeat;}
+#anselmi {background-image: url("img/anselmi.png"); background-size: cover; background-repeat: no-repeat;}
+#berte {background-image: url("img/berte.png"); background-size: cover; background-repeat: no-repeat;}
+#bozzi {background-image: url("img/bozzi.png"); background-size: cover; background-repeat: no-repeat;}
+#cadioli {background-image: url("img/cadioli.png"); background-size: cover; background-repeat: no-repeat;}
+#chines {background-image: url("img/chines.png"); background-size: cover; background-repeat: no-repeat;}
+#ciancio {background-image: url("img/ciancio.png"); background-size: cover; background-repeat: no-repeat;}
+#daquino {background-image: url("img/daquino.png"); background-size: cover; background-repeat: no-repeat;}
+#de-pasquale {background-image: url("img/de-pasquale.png"); background-size: cover; background-repeat: no-repeat;}
+#de-vivo {background-image: url("img/de-vivo.png"); background-size: cover; background-repeat: no-repeat;}
+#del-vento {background-image: url("img/del-vento.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#di-silvestro {background-image: url("img/di-silvestro.png"); background-size: cover; background-repeat: no-repeat;}
+#italia {background-image: url("img/italia.png"); background-size: cover; background-repeat: no-repeat;}
+#leonardi {background-image: url("img/leonardi.png"); background-size: cover; background-repeat: no-repeat;}
+#manetti {background-image: url("img/manetti.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#maraschio {background-image: url("img/maraschio.png"); background-size: cover; background-repeat: no-repeat;}
+#marazzini {background-image: url("img/marazzini.png"); background-size: cover; background-repeat: no-repeat;}
+#meghini {background-image: url("img/meghini.png"); background-size: cover; background-repeat: no-repeat;}
+#meneghetti {background-image: url("img/meneghetti.png"); background-size: cover; background-repeat: no-repeat;}
+#moreno {background-image: url("img/moreno.png"); background-size: cover; background-repeat: no-repeat;}
+#nava {background-image: url("img/nava.png"); background-size: cover; background-repeat: no-repeat;}
+#nobili {background-image: url("img/nobili.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#papio {background-image: url("img/papio.png"); background-size: cover; background-repeat: no-repeat;}
+#petoletti {background-image: url("img/petoletti.png"); background-size: cover; background-repeat: no-repeat;}
+#priore {background-image: url("img/priore.png"); background-size: cover; background-repeat: no-repeat;}
+#quondam {background-image: url("img/quondam.png"); background-size: cover; background-repeat: no-repeat;}
+#raboni {background-image: url("img/raboni.png"); background-size: cover; background-repeat: no-repeat;}
+#riva {background-image: url("img/riva.png"); background-size: cover; background-repeat: no-repeat;}
+#ruozzi {background-image: url("img/ruozzi.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#russo-emilio {background-image: url("img/russo-emilio.png"); background-size: cover; background-repeat: no-repeat;}
+#russo-ersilia {background-image: url("img/russo-ersilia.png"); background-size: cover; background-repeat: no-repeat;}
+#serra {background-image: url("img/serra.png"); background-size: cover; background-repeat: no-repeat;}
+#sichera {background-image: url("img/sichera.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#siciliano {background-image: url("img/siciliano.png"); background-size: cover; background-repeat: no-repeat;}
+#squillacioti {background-image: url("img/squillacioti.png"); background-size: cover; background-repeat: no-repeat;}
+#tomasi {background-image: url("img/tomasi.png"); background-position-y: 0px; background-size: cover; background-repeat: no-repeat;}
+#tomasi-franco {background-image: url("img/tomasi-franco.png"); background-size: cover; background-repeat: no-repeat;}
+#vecchi {background-image: url("img/vecchi.png"); background-size: cover; background-repeat: no-repeat;}
+#zaccarello {background-image: url("img/zaccarello.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+/* Icone */
+.fa-copy:hover {color: #FEFEFE; font-size: 20px;}
+
+/* Abstract */
+.abstract {cursor: pointer; font-size: 15px; text-transform: uppercase;}
+.abstract:hover {text-decoration: underline;}
+
+/* Modali */
+.modal-content {border: 1px solid transparent !important; border-radius: 0 !important; background-color: #FEFEFE !important;}
+.modal-footer {border-top: 0px solid transparent !important;}
+.modal-header {border-bottom: 0px solid transparent !important;}
+
+/* Box */
+.box-button {margin-top: 0 !important;}
+.box-thumbnail {height: 300px; margin: 20px 0 20px 0 !important; margin-bottom: 0 !important; padding: 25px 0 25px 0 !important;}
+@media only screen and (width: 1024px) {.box-thumbnail {height: 33vh;}}
+
+/* Brand */
+@media only screen and (max-width: 1024px) {.navbar-brand {display: none;}}
+@media only screen and (max-width: 1024px) {.brand {margin-top: 2vh;}}
